@@ -1,36 +1,45 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="description" content="This is the description of the page that is used by SEO to optimize search 
+      results and to provide a summary of the site.">
+    <meta name="author" content="Author's name">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/styles/blog.css" >
+    <link rel="icon" href="/images/favicon.ico" type="image/ico" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.2.0/css/fork-awesome.min.css">
 </head>
 
 
 <body>
     <header>
-        <img src="../images/logo_wireframe.webp" alt="Logo wireframe" width="150">
+        <img src="../images/blog_travel.png" alt="Logo wireframe" width="150">
         <h1>Daily life</h1>
-        <nav>
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../pages/about_us.html">About us</a></li>
-            <li><a href="blog.html">Lorum</a></li>
-            <li><a href="blog.html">Epsilon</a></li>
-          </ul>
-        </nav>
-         <img src="../images/banner3.jpg" alt="Banner wireframe" >
     </header>
+    
+    <div class="section-1">      
+        <a class ="sections-div" href="../index.html">Home</a>
+        <a class ="sections-div" href="../pages/blog.html">About us</a>
+        <a class ="sections-div" href="blog.html">Lorum</a>
+        <a class ="sections-div" href="blog.html">Epsilon</a>   
+    </div>
+        
+    <img class = "blog-banner" src="../images/nuevazelanda.jpg" alt="Banner wireframe" >
 
     <section>
-        <h2>My Blog</h2>
-        <h3>Username</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu lorem molestie, tempor felis suscipit, tincidunt dolor. Fusce hendrerit risus a pretium sollicitudin. Ut mattis venenatis enim eget imperdiet. Integer semper venenatis ligula, eu sollicitudin nibh laoreet ac. Etiam posuere augue in finibus interdum. Ut placerat pulvinar vestibulum. Sed eget semper arcu. Sed sed tempor neque.
-        </p>
-        <img src="../images/blog_image.jpeg" alt="Blog image" width="300">
+        <h2 class ="blog_title" >Mis Aventuras por Nueva Zelanda</h2>
+        <h3 class ="blog_user">Daniel Lopez</h3>
+        <div class ="div-blog">
+            <p id="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu lorem molestie, tempor felis suscipit, tincidunt dolor. Fusce hendrerit risus a pretium sollicitudin. Ut mattis venenatis enim eget imperdiet. Integer semper venenatis ligula, eu sollicitudin nibh laoreet ac. Etiam posuere augue in finibus interdum. Ut placerat pulvinar vestibulum. Sed eget semper arcu. Sed sed tempor neque.
+            </p>
+            <img class ="image" src="../images/blog_image.jpeg" alt="Blog image" width="300">    
+        </div>
     </section>
 
-    <section>
+    <section class="comments">
         <h2>Comments</h2>
         
         <input type="text" name="q" placeholder="Comment...">
