@@ -19,14 +19,16 @@
   }
 
   img header{
-    height: 120px;
+    height: auto;
     width: auto;
   }
 
   .blog-banner{
-    align-items: center;
+    display: flex;
+    justify-content: center;
     width: auto;
     height: 21.9rem;
+    border-radius: 5px;
   }
 
 
@@ -35,8 +37,13 @@
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
     padding: 1rem;
+  }
 
-
+  .section-2{
+    display: flex;
+    background-color: #C5DDFE;
+    justify-content: space-between;
+    padding: 1rem;
   }
 
   .sections-div{
@@ -50,19 +57,22 @@
     padding-right: 5%;
   }
 
-  .blog_title{
+
+
+  .blog-title{
     font-size: 2rem;
     color: #000000;
-    padding: 0 2.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2.5rem 0;
     position: relative;
-    z-index: 2;
+
   }
 
   .blog_user{
-
     color: #000000;
-    padding: 0 2.5rem;
     position: relative;
+    padding: 0 2.5rem;
     z-index: 2;
   }
 
@@ -80,19 +90,58 @@
   #parrafo{
     display:flex;
     justify-self: left;
-    border: 1px solid #000000;
     text-align: left;
   }
 
   .comments{
     background-color: #C5DDFE;
-    display: flex;
-    flex-direction: column;
-
-    align-items: left;
-    text-align: left;
-    padding: 0 2.5rem;
+    display: flexbox;
+    gap: 2rem;
+    padding:  2.5rem;
     position: relative;
-    z-index: 2;
+ 
   }
 
+  .comment-input, .comment-submit{
+    padding: 5px; /* Adjust padding to increase size */
+    font-size: 20px; /* Adjust font size to increase size */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+
+
+.image{
+    width: 44%;
+    height: auto;
+    block-size: auto;
+    display: flex;
+    padding: 1rem;
+}
+
+.blog-options{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.img-blog{
+    width: 35rem;
+    height: auto;
+    display: flex;
+    padding: 1rem;
+}
+.p-1{
+
+  justify-content: center;
+  font: center;
+  margin: auto;
+  text-align: center;
+}
+
+.h-comment{
+ 
+  padding:  0 0 1rem 0;
+  
+
+}
